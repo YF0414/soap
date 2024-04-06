@@ -154,7 +154,7 @@ include 'define.php';
               </div>
               <h3 class="label">◯女性画像3枚まで:
                 <br>
-                <span>（推奨サイズ幅600px高さ800px、画像サイズは1MB以内である必要があります。）</span>
+                <span>（推奨サイズ3対4 例：幅600px高さ800px、画像サイズは1MB以内である必要があります。）</span>
               </h3>
               <div class="form-group-3col">
                 <div class="form-group">
