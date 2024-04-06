@@ -142,10 +142,7 @@ include 'define.php';
               </div>
               <h2 class="section-title">画像登録</h2>
               <div class="form-group">
-                <h3 class="label">◯アイコン画像:
-                  <br>
-                  <span>（画像は幅500px高さ500px以内である必要があります。）</span>
-                </h3>
+                <h3 class="label">◯アイコン画像:</h3>
                 <input type="file" id="" name="icon" class="file-input">
                 <button class="del-button2">削除</button>
                 <p class="img_wid">
@@ -154,7 +151,7 @@ include 'define.php';
               </div>
               <h3 class="label">◯女性画像3枚まで:
                 <br>
-                <span>（画像は幅600px高さ800px以内、画像サイズが1MB以内である必要があります。）</span>
+                <span>（推奨サイズ幅600px高さ800px、画像サイズは1MB以内である必要があります。）</span>
               </h3>
               <div class="form-group-3col">
                 <div class="form-group">
