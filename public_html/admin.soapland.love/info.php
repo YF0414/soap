@@ -48,7 +48,7 @@ include 'define.php';
                 <textarea id="post" name="post" class="textarea" rows="10" required></textarea>
               </div>
               <h2 class="section-title marsbottom">画像登録</h2>
-              <p class="red_tee">（画像は幅600px高さ800px以内、画像サイズが1MB以内である必要があります。）</p>
+              <p class="red_tee">（推奨サイズ3対4 例：幅600px高さ800px、画像サイズは1MB以内である必要があります。）</p>
               <div class="form-group">
                 <input type="file" id="header-image" name="header_image" class="file-input">
                 <button class="del-button2">削除</button>
