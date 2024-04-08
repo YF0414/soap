@@ -214,7 +214,7 @@ include $inc_path .'/inc/head.php';
             <p>11:00-18:00<br>名前 / 年齢</p>
           </div>
         </div>
-        <p class="box_sub_page2 cm_pre_line">初期読み込み120人→それ以降は更に読み込むボタン<p>
+        <p style="text-align:center; background:#ee5961; padding:10px; color:#fff; font-size:20px; margin:0px 0 40px;">初期読み込み120人→それ以降は更に読み込むボタン</p>
         <button class="fan-button_live">更に読み込む</button>
       </div>
       <!-- tab -->
