@@ -215,7 +215,9 @@ include $inc_path .'/inc/head.php';
           </div>
         </div>
         <p style="text-align:center; background:#ee5961; padding:10px; color:#fff; font-size:20px; margin:0px 0 40px;">初期読み込み120人→それ以降は更に読み込むボタン</p>
-        <button class="fan-button_live">更に読み込む</button>
+        <div class="road_bt_box">
+        <button class="road_bt">更に読み込む</button>
+        </div>
       </div>
       <!-- tab -->
       <div class="tab_content" id="programming_content">
