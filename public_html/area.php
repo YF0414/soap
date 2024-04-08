@@ -146,7 +146,11 @@ include $inc_path .'/inc/head.php';
             </label>
           </div>
         </div>
-
+        
+      <div class="tab_content" id="all_content">
+        <div class="box-004 box-004_down">
+        <p>出勤はAM5:00に切り替わります</p>
+        </div>
 
         <div class="container_photo">
           <div class="grid-item_photo">
