@@ -680,6 +680,9 @@ include $inc_path .'/inc/head.php';
       <!-- tab-->
     </div>
     <!-- tabs -->
+
+      <p class="box_sub_page2 cm_pre_line">吉原のソープランドの歴史は江戸時代の遊郭から。。。。<p>
+        
     <?php include $inc_path .'/inc/footer_menu.php';?>
   </div>
   <!-- content -->
