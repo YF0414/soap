@@ -871,6 +871,26 @@ span.shop_modaltxt{
   font-family: 'Poppins', sans-serif;
 }
 
+.road_bt_box{
+  margin: 0px 10px 0px;
+}
+
+.road_bt {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  margin: 20px auto 0px;
+  background-color: #42d392;
+  color: #213547;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: 'Poppins', sans-serif;
+}
+
 .timeline {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
