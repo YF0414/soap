@@ -3051,3 +3051,153 @@ p.shop_time{
 .prof_cal::-webkit-scrollbar-thumb {
   background-image: linear-gradient(90deg, rgba(247, 93, 139, .5), rgba(254, 220, 64, .5));
 }
+
+.cp_snslink11 {
+  position: fixed;
+  bottom: 40px;
+  right: -12px;
+  display: block;
+  margin: 0;
+  z-index: 100;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.cp_snslink11 a {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: 0.95;
+}
+
+.cp_snslink11 .cp_link {
+  margin-left: -35px;
+}
+
+.cp_snslink11 .cp_link, .cp_snslink11 .cp_open_btn {
+  line-height: 50px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: -35px;
+  -webkit-transition: -webkit-transform ease-out 200ms;
+  transition: -webkit-transform ease-out 200ms;
+  transition: transform ease-out 200ms;
+  transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  padding-left: 2px;
+  color: #fff;
+  border-radius: 100%;
+  background: #ff4160;
+}
+
+.cp_snslink11 .cp_link_list {
+  font-size: 26px;
+  z-index: 99;
+  box-sizing: border-box;
+  width: 80px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.cp_snslink11 .cp_link_list a.cp_link .fa {
+  color: #ffffff;
+}
+
+.cp_snslink11 .cp_open {
+  display: none;
+}
+
+.cp_snslink11 .cp_share {
+  color: #e5e4ed;
+}
+
+.cp_snslink11 .cp_link:hover {
+  opacity: 1;
+}
+
+.cp_snslink11 .cp_link:nth-child(3), .cp_snslink11 .cp_link:nth-child(4), .cp_snslink11 .cp_link:nth-child(5), .cp_snslink11 .cp_link:nth-child(6) {
+  -webkit-transition-duration: 180ms;
+  transition-duration: 180ms;
+}
+
+.cp_snslink11 .cp_open_btn {
+  z-index: 2;
+  cursor: pointer;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
+
+.cp_snslink11 .cp_open_btn:hover {
+  -webkit-transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+  transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+}
+
+.cp_snslink11 .cp_open:checked+.cp_open_btn {
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  -webkit-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+  transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+}
+
+.cp_snslink11 .cp_open:checked~.cp_link {
+  -webkit-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+  transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+}
+
+.cp_snslink11 .cp_open:checked~.cp_link:nth-child(3) {
+  -webkit-transition-duration: 180ms;
+  transition-duration: 180ms;
+  -webkit-transform: translate3d(0.08361px, -64px, 0);
+  transform: translate3d(0.08361px, -64px, 0);
+}
+
+.cp_snslink11 .cp_open:checked~.cp_link:nth-child(4) {
+  -webkit-transition-duration: 280ms;
+  transition-duration: 280ms;
+  -webkit-transform: translate3d(0.08361px, -134px, 0);
+  transform: translate3d(0.08361px, -134px, 0);
+}
+
+.cp_snslink11 .cp_open:checked~.cp_link:nth-child(5) {
+  -webkit-transition-duration: 380ms;
+  transition-duration: 380ms;
+  -webkit-transform: translate3d(0.08361px, -202px, 0);
+  transform: translate3d(0.08361px, -202px, 0);
+}
+
+.cp_snslink11 .cp_open:checked~.cp_link:nth-child(6) {
+  -webkit-transition-duration: 480ms;
+  transition-duration: 480ms;
+  -webkit-transform: translate3d(0.08361px, -270px, 0);
+  transform: translate3d(0.08361px, -270px, 0);
+}
+
+.cp_snslink11 .facebook {
+  background-color: #fc1294;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
+
+.cp_snslink11 .twitter {
+  background-color: #00aced;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
+
+.cp_snslink11 .google {
+  background-color: #02bf56;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
+
+.cp_snslink11 .instagram {
+  background: radial-gradient(circle at 0% 90%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
