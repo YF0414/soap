@@ -223,6 +223,9 @@ include $inc_path .'/inc/head.php';
         <p style="text-align:center; background:#ee5961; padding:10px; color:#fff; font-size:20px; margin:0px 0 40px;">初期読み込み120人→それ以降は更に読み込むボタン</p>
         <div class="road_bt_box">
         <button class="road_bt">更に読み込む</button>
+        <p class="iconloader">
+        <i class="fa-duotone fa-spinner fa-spin fa-3x fa-fw"></i>
+        </p>
         </div>
       </div>
       <!-- tab -->
