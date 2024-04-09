@@ -3054,14 +3054,14 @@ p.shop_time{
 
 .post-btn {
   position: fixed;
-  bottom: 7%;
-  right: 1%;
+  bottom: 60px;
+  right: 10px;
   width: 60px;
   height: 60px;
   line-height:60px;
   color:#fff;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   background: #e81e5d;
   border-radius: 50%;
   text-align: center;
