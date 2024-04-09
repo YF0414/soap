@@ -2,6 +2,13 @@
   $ua = $_SERVER['HTTP_USER_AGENT'];
   if ((strpos($ua, 'Android') !== false) && (strpos($ua, 'Mobile') !== false) || (strpos($ua, 'iPhone') !== false) || (strpos($ua, 'Windows Phone') !== false)) {
 ?>
+
+<a href="https://soapland.love<?php echo $_SERVER["REQUEST_URI"]; ?>">
+  <div class="post-btn">
+    <i class="fa-solid fa-rotate-right"></i>
+  </div>
+</a>
+
 <div class="sns-buttons">
   <a href="" target="_blank" class="sns-button x-button">
     <i class="fa-brands fa-x-twitter"></i>
