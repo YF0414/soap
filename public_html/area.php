@@ -35,10 +35,6 @@ include $inc_path .'/inc/head.php';
   <div class="content">
     <?php include $inc_path .'/inc/header.php';?>
 
-<!--<div class="logo_box2">
-  <img alt="" src="<?=$com_href?>/img/soap01.jpg">
-</div>-->
-
 <div class="prof_cal">
   <div class="prof_item_cal"><a href="shop.php"><img src="<?=$com_href?>/img/soap03.jpg" alt=""></a></div>
   <div class="prof_item_cal"><a href="shop.php"><img src="<?=$com_href?>/img/soap02.jpg" alt=""></a></div>
@@ -134,15 +130,15 @@ include $inc_path .'/inc/head.php';
             </label>
             <label class="_checkboxLabel">
               <input class="_checkbox" type="checkbox" @click="changeTime('s9e18')" :checked="selectTime.includes('s9e18')">
-              <span>〜18:00</span>
+              <span>9:00〜18:00</span>
             </label>
             <label class="_checkboxLabel">
               <input class="_checkbox" type="checkbox" @click="changeTime('s18e24')" :checked="selectTime.includes('s18e24')">
-              <span>18:00〜24:00</span>
+              <span>18:00〜0:00</span>
             </label>
             <label class="_checkboxLabel">
               <input class="_checkbox" type="checkbox" @click="changeTime('s24e29')" :checked="selectTime.includes('s24e29')">
-              <span>24:00〜5:00</span>
+              <span>0:00〜5:00</span>
             </label>
           </div>
         </div>
