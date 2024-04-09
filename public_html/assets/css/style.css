@@ -3103,3 +3103,9 @@ p.shop_time{
 .post-btn a{
   color:#fff;
 }
+
+.iconloader {
+  margin:40px auto 0px!important;
+  text-align: center!important;
+  color: #FC8166;
+}
