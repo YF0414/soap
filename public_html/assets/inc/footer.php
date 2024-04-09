@@ -5,11 +5,11 @@
         <i class="fa-solid fa-house"></i>
       </a>
     </li>
-    <li>
+    <!--<li>
       <a href="https://soapland.love<?php echo $_SERVER["REQUEST_URI"]; ?>">
         <i class="fa-solid fa-rotate-right"></i>
       </a>
-    </li>
+    </li>-->
     <li>
       <a class="page-top" id="js-button">
         <i class="fa-solid fa-up"></i>
