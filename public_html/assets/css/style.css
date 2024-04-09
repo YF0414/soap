@@ -1338,6 +1338,36 @@ p.shop_tit{
   }
 }
 
+.table_pos_item {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+  text-align: center;
+  transform: rotate(-5deg);
+}
+
+p.out_time {
+  color: #f5f5f5;
+  background: rgba(232, 30, 93,.9);
+  padding: 10px 5px;
+  font-size: 15px!important;
+}
+
+@media (max-width:560px) {
+  .table_pos_item {
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 10px #ec6d4e;
+    transform: rotate(-5deg);
+  }
+  p.out_time {
+    padding: 8px 3px;
+    font-size: 14px!important;
+  }
+}
+
 .grid-item_baner {
   position: relative;
   overflow: hidden;
