@@ -3063,6 +3063,9 @@ p.shop_time{
   font-weight: bold;
   font-size: 25px;
   background: #e81e5d;
+  background: rgba(232, 30, 93,.9);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   border-radius: 50%;
   text-align: center;
 }
