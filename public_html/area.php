@@ -205,12 +205,18 @@ include $inc_path .'/inc/head.php';
             <a data-micromodal-trigger="remodal_prof_modal">
               <img src="<?=$com_href?>/img/soap_04.jpg" loading="lazy">
             </a>
+            <div class="table_pos_item">
+                <p class="out_time">本日終了</p>
+            </div>
             <p>11:00-18:00<br>名前 / 年齢</p>
           </div>
           <div class="grid-item_photo">
             <a data-micromodal-trigger="remodal_prof_modal">
               <img src="<?=$com_href?>/img/soap_05.jpg" loading="lazy">
             </a>
+            <div class="table_pos_item">
+                <p class="out_time">本日終了</p>
+            </div>
             <p>11:00-18:00<br>名前 / 年齢</p>
           </div>
         </div>
