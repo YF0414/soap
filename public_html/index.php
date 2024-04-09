@@ -32,7 +32,7 @@ include $inc_path .'/inc/head.php';
       <?php include $inc_path .'/inc/header.php';?>
 
 <div class="logo_box2">
-  <img alt="" src="<?=$com_href?>/img/soap02.jpg">
+  <img alt="" src="<?=$com_href?>/img/soaptop.jpg">
 </div>
 
 <h1 class="big_h1">SoapLand Mafia<br>ソープランドマフィア</h1>
